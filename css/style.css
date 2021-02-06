@@ -1,0 +1,215 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.wrap {
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.d-flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+.first-section {
+	padding-top: 30px;
+	padding-bottom:30px;
+	background-color: #E6E6E6;
+}
+.second-section {
+	padding-top: 90px;
+	padding-bottom:90px ;
+	background-color: #363E97;
+}
+.third-section {
+	padding-top: 90px;
+	padding-bottom:90px ;
+	background-color: #BDCCD4;
+}
+.fourth-section {
+	padding-top: 90px;
+	padding-bottom:90px ;
+	background-color: #E6E6E6;
+}
+/*header*/
+.nav-ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.header-wraper {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-top: 19.5px;
+	padding-bottom: 19.5px;
+}
+.nav-li {
+	margin-right: 31px;
+}
+.icon {
+    font-size: 30px;
+	color: #3D58A6;
+	-webkit-transition: all 0.3s linear 0.3s;
+	-o-transition: all 0.3s linear 0.3s;
+	transition: all 0.3s linear 0.3s;
+}
+.burger-icon {
+	font-size: 30px;
+	color: #3D58A6;
+	display: none;
+}
+.icon:hover {
+	color: #EE4036;
+}
+.icon::after {
+	content: ' ';
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 50px;
+	background-color: #3D58A6;
+	border-left: 2px solid #3D58A6;
+}
+.list {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #3D58A6;
+	font-family: 'Roboto', sans-serif;
+}
+/*first section*/
+.bg-div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.bg-page {
+	background-image: url(../img/section1-img.png); 
+	background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 460px;
+    position: relative;
+    background-position: center;
+}
+.bg-text {
+	position: absolute;
+	left: 30px;
+	bottom: 28px; 
+	max-width:339px;
+	width: 100%;
+}
+.bg-paragraph {
+	font-size: 30px;
+	color: #E6E6E6;
+	line-height: 36px;
+	font-weight: bold;
+}
+.bg-logo {
+	height: 30px;
+	max-width: 98px;
+	width: 100%;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+/*section 2*/
+.video:nth-child(1),
+.video:nth-child(2) {
+	max-width: 570px;
+	width: 100%;
+	height: 320px;
+	background-color: #F2F2F2;
+	margin-top: 32px;
+}
+.video {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.videos-h3 {
+	font-size: 24px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+/*section 3*/
+.news-h3 {
+	margin-bottom: 27.5px;
+	font-size: 24px;
+	color: #3D58A6;
+	font-family: 'Roboto', sans-serif;
+}
+.news-text {
+	padding: 14px 70px 17px 14px;
+	width: 100%;
+	background-color: #E6E6E6;
+	font-family: 'Roboto', sans-serif;
+}
+.news-box img {
+	width: 100%;
+}
+/*section 4*/
+.featured {
+	max-width: 570px;
+	width: 100%;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+}
+.featured-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+.featured-text {
+	max-width: 355px;
+	width: 100%;
+	margin-top: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+.featured-h3 {
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+}
+.box-h4 {
+	margin-bottom: 12px;
+	margin-top: 11px;
+	margin-left: 18px;
+	font-size: 22px;
+	color: #3D58A6;
+}
+.read {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	margin-right: 8px;
+	margin-bottom: 15px;
+} 
